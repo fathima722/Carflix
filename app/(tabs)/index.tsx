@@ -10,6 +10,7 @@ export default function Index() {
         source={{uri:getAsset('images/bg.png')}} 
         className="absolute w-full h-full z-0" 
       />
+      {/* ScrollView is not very performant in real scenario for a similar usecase, but just using for demo */}
       <ScrollView 
         className="flex-1 px-5" 
         showsVerticalScrollIndicator={false} 
